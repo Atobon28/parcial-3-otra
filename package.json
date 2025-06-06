@@ -1,0 +1,32 @@
+{
+  "name": "lulada",
+  "version": "1.0.0",
+  "description": "**Lulada** is a web application that allows users to discover and review restaurants. The platform supports multiple user roles (personal users and restaurant owners) and includes features such as profiles, reviews, notifications, and bookmarking.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode=development",
+    "lint": "eslint src/ --ext .ts,.js --report-unused-disable-directives",
+    "lint:fix": "eslint src/ --ext .ts,.js --report-unused-disable-directives --fix",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "firebase": "^11.9.0"
+  }
+}
